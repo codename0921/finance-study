@@ -1,0 +1,39 @@
+$d{HH:mm:ss.SSS} [main] INFO  com.dayone.Application - Starting Application using Java 11.0.19 on devj with PID 15992 (C:\Users\tmddu\Desktop\spring\sample\build\classes\java\main started by tmddu in C:\Users\tmddu\Desktop\spring\sample)
+$d{HH:mm:ss.SSS} [main] INFO  com.dayone.Application - No active profile set, falling back to default profiles: default
+$d{HH:mm:ss.SSS} [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+$d{HH:mm:ss.SSS} [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+$d{HH:mm:ss.SSS} [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 160 ms. Found 3 JPA repository interfaces.
+$d{HH:mm:ss.SSS} [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+$d{HH:mm:ss.SSS} [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+$d{HH:mm:ss.SSS} [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dayone.persist.CompanyRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+$d{HH:mm:ss.SSS} [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dayone.persist.DividendRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+$d{HH:mm:ss.SSS} [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.dayone.persist.MemberRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+$d{HH:mm:ss.SSS} [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+$d{HH:mm:ss.SSS} [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5e5beb8a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+$d{HH:mm:ss.SSS} [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+$d{HH:mm:ss.SSS} [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+$d{HH:mm:ss.SSS} [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+$d{HH:mm:ss.SSS} [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+$d{HH:mm:ss.SSS} [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+$d{HH:mm:ss.SSS} [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+$d{HH:mm:ss.SSS} [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1356 ms
+$d{HH:mm:ss.SSS} [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+$d{HH:mm:ss.SSS} [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+$d{HH:mm:ss.SSS} [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:dayone'
+$d{HH:mm:ss.SSS} [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+$d{HH:mm:ss.SSS} [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+$d{HH:mm:ss.SSS} [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+$d{HH:mm:ss.SSS} [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+$d{HH:mm:ss.SSS} [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+$d{HH:mm:ss.SSS} [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+$d{HH:mm:ss.SSS} [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+$d{HH:mm:ss.SSS} [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/h2-console/**'] with []
+$d{HH:mm:ss.SSS} [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@456c53a, org.springframework.security.web.context.SecurityContextPersistenceFilter@46878216, org.springframework.security.web.header.HeaderWriterFilter@95958d9, org.springframework.security.web.authentication.logout.LogoutFilter@68aa1164, com.dayone.security.JwtAuthenticationFilter@638341b0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7136ad9a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1067bc4c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7916568d, org.springframework.security.web.session.SessionManagementFilter@5d10e2b6, org.springframework.security.web.access.ExceptionTranslationFilter@5263f554, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f70d78c]
+$d{HH:mm:ss.SSS} [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+$d{HH:mm:ss.SSS} [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+$d{HH:mm:ss.SSS} [main] INFO  com.dayone.Application - Started Application in 4.166 seconds (JVM running for 5.039)
+$d{HH:mm:ss.SSS} [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+$d{HH:mm:ss.SSS} [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+$d{HH:mm:ss.SSS} [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+$d{HH:mm:ss.SSS} [http-nio-8080-exec-3] INFO  com.dayone.web.AuthController - user login -> grace
+$d{HH:mm:ss.SSS} [http-nio-8080-exec-4] INFO  c.d.security.JwtAuthenticationFilter - [grace] -> /company
